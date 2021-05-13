@@ -6,4 +6,5 @@ Quien dijo que yo era el sueño que soñaste una vez, quien dijo que tu volteari
 
 Y ya son las 7:16 y el cadaver del minuto que paso, me dice tu estrategia te arruino no queda mas que ir aprendiendo a vivir solo, si te quedan agallas
 
+La casa no es otra cosa que un cementerio de historias, enterradas en fosas que algunos llaman memorias
 
