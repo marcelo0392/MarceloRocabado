@@ -1,0 +1,36 @@
+input[type=text], input[type=password], select {
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #59a011;
+    color: wheat;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type=submit]:hover {
+    background-color: #4a850e;
+}
+
+.forms {
+    margin: 0 auto;
+    background-color: #b9b9b9;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    min-width: 350px;
+}
+
+
