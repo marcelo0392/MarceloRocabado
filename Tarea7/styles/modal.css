@@ -1,0 +1,85 @@
+button {
+    background-color: #00b92e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 8px 0;
+    width: 20%;
+    
+}
+
+.b1 {
+    border-radius: 80px;
+}
+
+button:hover {
+    /* opacity: 0.8; */
+    background-color: #008d23;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgb(0,0,0,0.4);
+    padding-top: 0px;  
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 20px;
+}
+
+.imgcontainer {
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+

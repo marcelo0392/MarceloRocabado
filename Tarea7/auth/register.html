@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="stylesheet" type="text/css" href="../styles/modal.css">
+    <link rel="stylesheet" type="text/css" href="../styles/forms.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="topnav">
+        <div class="align">
+            <a href="../index.html">Home</a>
+            <a href="News.html">News</a>
+            <a href="../Contacts.html">Contacts</a>
+            
+        </div>
+        <div class="align2">
+            <a href="login.html" >login</a>
+            <a href="#" class="active">Register</a>
+        </div>
+    </nav>
+
+    <h2>Modal Register Form</h2>
+
+    <button style="width: auto;"
+        onclick="document.getElementById('id01').style.display = 'block'">login</button>
+
+    <div id="id01" class="modal">
+        <form class="modal-content animate">
+            <div class="imgcontainer">
+                <span 
+                onclick="document.getElementById('id01').style.display ='none'"
+                class="close" title="Close Modal">&times;</span>
+                <img src="../images/rg2.png" style="width: 30%;" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label for="lastname"><b>Last Name</b></label>
+                <input type="text" placeholder="Enter your last name" required>
+
+                <label for="email"><b>e-mail</b></label>
+                <input type="text" placeholder="Enter your e-mail" required>
+
+                <label for="username"><b>User Name</b></label>
+                <input type="text" placeholder="Enter your user name" required>
+                
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter yourpassword" required>
+
+                <button class="b1">Register</button>
+            </div>
+
+            <div class="container">
+                <button
+                    onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelBtn b1">
+                    Cancel
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        var modal = document.getElementById('id01');
+
+        window.onclick = function(event) {
+            if(event.target == modal){
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
