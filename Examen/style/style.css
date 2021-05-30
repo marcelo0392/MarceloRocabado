@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-image: url(../imagenes/fondo1.jpg);
+    background-size: auto;
+    color: white;
+}
+
+.topnav {    
+    background-color: rgba(0, 0, 0, 0.3);    
+    height: 42px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(9, 88, 9);
+}
+
+.topnav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 19px;
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: rgb(87, 87, 87);
+    color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+    background-color: rgb(9, 88, 9);
+    text-transform: uppercase;
+}
