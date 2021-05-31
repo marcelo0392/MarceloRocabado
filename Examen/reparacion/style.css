@@ -1,5 +1,4 @@
 
-
 .container {
     width: 100%;
     max-width: 1200px;
@@ -7,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
+    margin-top: 20px;
 }
 
 .container .card {
@@ -19,6 +18,7 @@
     text-align: center;
     margin: 20px;
     transition: all 0.25s;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .container .card:hover {
@@ -29,21 +29,13 @@
 .container .card img {
     width: 280px;
     height: 370px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 .container .card ul {
-    /*padding: 0 1rem;*/
     padding: 0 80px;
-    /*font-size: 16px;*/
-    /*font-weight: 300;*/
     text-align: justify;
-}
-
-.p {
-    width: 85%;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 20px;   
 }
 
 
